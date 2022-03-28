@@ -1,0 +1,17 @@
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+    padding: 0 50px;
+    margin: 0;
+	top: 0;
+    background-color: #028090;list-style-type: none;
+   z-index: 2;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    a{
+        cursor: pointer;
+    }
+}

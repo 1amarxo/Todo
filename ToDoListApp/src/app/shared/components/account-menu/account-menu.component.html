@@ -1,0 +1,12 @@
+<nav *ngIf="!accountFacade.isAuthenticated()">
+      <a class="button" routerLink="/account/login" routerLinkActive="active">Login</a>  
+</nav>
+
+<nav *ngIf="accountFacade.isAuthenticated()" >
+  
+  <a class="button" (click)="onLogout()">
+    <p>{{accountFacade.userName}}</p>
+    <button class="logout">LOGOUT</button>
+  </a> 
+
+</nav>

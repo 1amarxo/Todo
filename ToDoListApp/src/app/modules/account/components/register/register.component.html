@@ -1,0 +1,60 @@
+<div class="singin-container">
+  
+    <h1>Create an account</h1>
+    <p>Create and start managing your candidate!</p>
+    <hr>
+    <form  [formGroup]="registerForm" (submit)="onSubmit()">
+        <div class="container">
+          
+        
+            <input formControlName="email"
+                placeholder="Email"
+                type="email"
+                id="email"
+                name="email"
+                class="input">
+        
+            <input formControlName="userName"
+                placeholder="User Name"
+                type="text"
+                id="userName"
+                minlength="7"
+                maxlength="20"
+                name="userName"
+                class="input">
+            <input 
+                 formControlName="password"
+                 placeholder="Password"
+                 type="password"
+                 id="password"
+                 minlength="7"
+                 maxlength="36"
+                 name="password"
+                 class="input">
+    
+                </div>
+               
+            <button [disabled]="!registerForm.valid" type="submit" class="registerbtn">Register</button>
+          
+          <div class="container signin">
+            <p>Want to create an account? <a href="/account/login">Sign in</a>.</p>
+          
+        <div class="div-error">
+
+            <ng-container *ngIf="email?.touched">
+                <span *ngIf="email?.errors?.['required']">* Email is required</span>
+                <span *ngIf="email?.errors?.['email']">* Email is not valid</span>
+            </ng-container>
+            <ng-container *ngIf="userName?.touched">
+                <span *ngIf="userName?.errors?.['required']">* User name is required</span>
+                <span *ngIf="userName?.errors?.['pattern']">* User name is not valid</span>
+            </ng-container>
+            <ng-container *ngIf="password?.touched">
+                <span *ngIf="password?.errors?.['required']">* Password is required</span>
+                <span *ngIf="password?.errors?.['pattern']">* Password must contain <br>at least 1 Upper symbol<br> at least 1 Lower symbol <br> at least 1 Special <br>at least 1 number</span>
+            </ng-container>
+        </div>
+        </div>
+    </form>
+    
+    </div>

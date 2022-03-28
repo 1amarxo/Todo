@@ -1,0 +1,48 @@
+<div class="singin-container">
+  
+    <h1>Sign in</h1>
+    <p>Sign in and start managing your candidate!</p>
+    <hr>
+    <form  [formGroup]="loginForm" (submit)="onSubmit()">
+        <div class="container">
+          
+        
+            <input 
+                    formControlName="email"
+                    placeholder="Email"
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="input">
+        
+            <input 
+                 formControlName="password"
+                 placeholder="Password"
+                 type="password"
+                 id="password"
+                 minlength="8"
+                 maxlength="36"
+                 name="password"
+                 class="input">
+    
+                </div>
+               
+            <button [disabled]="!loginForm.valid" type="submit" class="registerbtn">Login</button>
+          
+          <div class="container signin">
+            <p>Want to create an account? <a href="/account/register">Create new</a>.</p>
+            <div class="div-error">
+                 <ng-container *ngIf="email?.touched">
+                     <span *ngIf="email?.errors?.['required']">* Email is required</span>
+                     <span *ngIf="email?.errors?.['email']">* Email is not valid</span>
+                 </ng-container>
+                 <ng-container *ngIf="password?.touched">
+                     <span *ngIf="password?.errors?.['required']">* Password is required</span>
+                     <span *ngIf="password?.errors?.['pattern']">* Password is not valid</span>
+                 </ng-container>
+            </div>
+          
+          </div>
+    </form>
+    
+    </div>

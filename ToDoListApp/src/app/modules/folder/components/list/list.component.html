@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="a-router">
+    <button class="create-btn" (click)="OnCreateClicked()">Create Folder</button>
+    </div>
+    
+    <div  class="grid" >
+
+        <app-item  *ngFor="let item of folders" [folder]="item"></app-item>
+    </div>
+</div>
+
+<app-create *ngIf="create" (closeCreate)="OnCreation($event)"></app-create>
+

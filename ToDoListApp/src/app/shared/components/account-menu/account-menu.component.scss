@@ -1,0 +1,49 @@
+$bg: #fff;
+$text: #2e2e2e;
+$blue: #2c2fe8;
+$darkblue: darken($blue, 10%);
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+    margin: 0;
+    padding: 0 50px;
+	flex-direction: row;
+	z-index: 1;
+
+	background-color: #fff;
+	border-radius: 5px;
+	a{
+		text-decoration: none;
+		color: #1d3557;
+	}
+    
+	.button{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p{
+			margin-right: 10px;
+		}
+		.logout{
+			width:70px;
+			height: 35px; 
+			font-family: 'Lexend Deca', sans-serif;
+
+			font-size: 12px;
+			font-weight: bold;
+
+			border: 0.7px solid black;
+
+			border-radius: 5px;
+			background-color: #a8dadc;
+			transition: 0.4s;
+		    &:hover{
+				color: #fff;
+				background-color: #1d3557;
+			}
+		}
+	}
+}

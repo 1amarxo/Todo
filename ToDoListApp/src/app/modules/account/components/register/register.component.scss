@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;500&display=swap');
+.singin-container
+  {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:#224957 ;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    h1{
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 500;
+    }
+    p{
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 200;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   
+      .input{
+        background-color: #224957;
+        
+
+        padding: 0 10px;
+        margin: 10px 0;
+
+        color:#ffffff;
+
+        border-radius: 10px;
+
+        height: 35px;
+        width: 300px;
+      }
+      .input::placeholder{
+
+        color:#ffffff ;  
+
+        font-family: 'Lexend Deca', sans-serif;
+
+        font-weight: 200;
+      }
+     
+    }
+    .registerbtn{
+      background: #20DF7F;
+
+      margin-top: 10px;
+
+      border-radius: 10px;
+      border: 0px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+      width: 320px;
+      height: 45px;
+
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 500;
+      
+      transition: 0.2s ease-in;
+      &:hover:enabled{
+        background: #2ec4b6;
+      }
+    }
+    .div-error {
+        display: flex;
+        flex-direction: column;
+        
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        color: red;
+       }
+  }

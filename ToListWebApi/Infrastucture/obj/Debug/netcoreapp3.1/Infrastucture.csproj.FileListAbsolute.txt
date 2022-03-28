@@ -1,0 +1,16 @@
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Infrastucture.deps.json
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Infrastucture.runtimeconfig.json
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Infrastucture.runtimeconfig.dev.json
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Infrastucture.dll
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Infrastucture.pdb
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.csproj.AssemblyReference.cache
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.AssemblyInfoInputs.cache
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.AssemblyInfo.cs
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.dll
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.pdb
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.genruntimeconfig.cache
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Очаровашка\source\repos\ToListWebApi\Infrastucture\obj\Debug\netcoreapp3.1\Infrastucture.csproj.CopyComplete

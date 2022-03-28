@@ -1,0 +1,15 @@
+<div class="container">
+
+    <div class="a-router">
+        <button class="back-btn" (click)="OnBackClicked()"> &larr;</button>
+        <button class="create-btn" (click)="OnCreateClicked()">Create Task</button>
+    </div>
+    <div class="grid">
+        <app-todo-item *ngFor="let item of todos" [todo]="item" ></app-todo-item>
+       
+    </div>
+
+
+    <app-create-todo  [folderId]="folderId" *ngIf="create" (closeCreate)="OnCreation($event)"></app-create-todo>
+    
+</div>

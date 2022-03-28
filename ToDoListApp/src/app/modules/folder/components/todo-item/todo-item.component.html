@@ -1,0 +1,17 @@
+<div class="container" >
+    <div class="card1" *ngIf="todo.priority==0" (clickedOutside)="clickedOutsideMenu()"  (click)="OnClick()" (contextmenu)="onRightClick($event,todo)">
+        <p>{{todo.name}}</p>
+    </div>
+    <div class="card2" *ngIf="todo.priority==1" (clickedOutside)="clickedOutsideMenu()"  (click)="OnClick()" (contextmenu)="onRightClick($event,todo)">
+        <p>{{todo.name}}</p>
+    </div>
+    <div class="card3" *ngIf="todo.priority==2"  (clickedOutside)="clickedOutsideMenu()"  (click)="OnClick()" (contextmenu)="onRightClick($event,todo)">
+        <p>{{todo.name}}</p>
+    </div>
+</div>
+
+
+
+<div *ngIf="contextmenu==true">
+    <app-contextmenu [todo]="todoOut" [x]="contextmenuX" [y]="contextmenuY"></app-contextmenu>
+</div>
