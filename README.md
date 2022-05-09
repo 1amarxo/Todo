@@ -13,9 +13,15 @@ Project is created with:
 * Entity Framework with a "CodeFirst" Approach
 	
 ## Setup
-To run this project, install it locally using npm:
+To run Angular project, install it locally using npm:
 
 ```
 $ npm install
 $ npm start
+```
+
+To run backend, install it locally using console in VisualStudio:
+```
+Add-Migration "NAME"
+Update-Database "NAME"
 ```
