@@ -4,7 +4,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is a TodoList web-application powered by Angular for the front end and .NET WebApi for the back end.
 	
 ## Technologies
 Project is created with:
